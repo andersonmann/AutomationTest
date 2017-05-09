@@ -20,6 +20,7 @@ public class Exercise1 {
 
 	@SuppressWarnings("rawtypes")
 	public static void main(String[] args) {
+		
 		// Create a new instance of the Chrome driver
 		System.setProperty("webdriver.chrome.driver", "C:\\Program Files\\Java\\chrome\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver();	
