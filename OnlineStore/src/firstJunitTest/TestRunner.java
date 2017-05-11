@@ -11,7 +11,7 @@ public class TestRunner {
 		// This result object has many methods and it is very useful
 		// Type result and press dot, all the methods will display
 		// This statement is to load all type of results in the result object
-		Result result = JUnitCore.runClasses(JunitMathProvider_1.class);
+		Result result = JUnitCore.runClasses(JunitMathProvider_1.class, JunitMathProvider_2.class);
 
 		// Here it is getting the run count from the result object
 		System.out.println("Total number of tests " + result.getRunCount());
