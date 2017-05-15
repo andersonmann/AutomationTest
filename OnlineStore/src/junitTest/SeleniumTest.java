@@ -18,6 +18,8 @@ public class SeleniumTest {
 	//WebDriver driver;
 	
 	private static ChromeDriver driver;
+	
+	
 	WebElement element;
 
 	@BeforeClass
